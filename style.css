@@ -1,18 +1,18 @@
 body{
-    background-color: purple;
-    padding: 50px;
+    /* background-color: purple; */
+    /* padding: 50px; */
 }
 #container{
     background-color: pink;
     border: solid 5px;
-    border-radius: 50px;
+    border-radius: 40px;
     padding-top: 20px;
     
 }
 #navbar{
     display: flex;
     gap: 100px;
-    padding: 15px;
+    padding:30px;
 }
 #lan-page{
     display: flex;
@@ -35,7 +35,7 @@ button{
     background-color: black;
     color: white;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 #count{
@@ -49,6 +49,28 @@ button{
 }
 
 
+.input-icon {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input-icons i {
+    position: absolute;
+}
+
+.icon {
+    padding: 10px;
+    color: green;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
 
 
 
@@ -59,7 +81,7 @@ button{
 
 @media all and (max-width: 1024px) and (min-width: 600px){
     body{
-        background-color: purple;
+        /* background-color: purple; */
         padding: 20px;
     }
     #container{
@@ -123,7 +145,7 @@ button{
  @media all and (max-width:600px ) and (min-width: 100px ){
 
   body{
-        background-color: purple;
+        /* background-color: purple; */
         padding: 2px;
         justify-content: center;
     }
@@ -187,7 +209,7 @@ button{
 
 @media all and (max-width: 1150px) and (min-width:  1025px){
     body{
-        background-color: purple;
+        /* background-color: purple; */
         padding: 20px;
     }
     #container{
